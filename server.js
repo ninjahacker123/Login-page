@@ -23,7 +23,7 @@ app.post("/", (req, res) => {
 	console.log("[+] Password: " + req.body.password);
 	console.log("");
 
-	if (req.body.username === "josephmarc2610@gmail.com" && req.body.password === "bamboola2") {
+	if (req.body.username === "test@gmail.com" && req.body.password === "test") {
 		res.sendFile(__dirname + "/index.html");
 	} else {
 		res.sendFile(__dirname + "/fail.html");
